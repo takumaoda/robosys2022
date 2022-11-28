@@ -19,9 +19,11 @@ seqは連続番号を出力する。上記の場合1~5までの値を出力し�
 numsというファイルを./plusに入力している。numsファイルに入っている数字の総和を出力する。numsファイルは数字ごとに改行して記入すること。
 
 ## テスト環境
-Ubuntu18.04で動作確認済み
+* OS : Windows
+* Ubuntu : 18.04
+
 
 # ライセンス
-* このソフトウェアパッケージは,ロボットシステム学で作った練習用リポジトリであり,[講義資料](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)を参考にしています.
+* このリポジトリは,ロボットシステム学で作った練習用リポジトリであり,[講義資料](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)を参考にしています.
 * このソフトウェアパッケージは,3条項BSDライセンスの下,再頒布および使用が許可されます．
 * © 2022 Takuma Oda
