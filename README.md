@@ -6,7 +6,7 @@
 
 # plusコマンド
 ![test](https://github.com/takumaoda/robosys2022/actions/workflows/test.yml/badge.svg)
-
+標準入力された数値の和を表示する。
 
 ## 必要なソフトウェア
 * python
