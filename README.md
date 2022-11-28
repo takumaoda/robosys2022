@@ -9,4 +9,4 @@
 ## テスト環境
 * Ubuntu
 
-© 2022 Takuma Odaa
+© 2022 Takuma Oda
