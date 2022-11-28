@@ -7,8 +7,10 @@
   * テスト済み: 3.7~3.10
 ## インストール
 リポジトリをクローン。  
-`$ git clone https://github.com/TakumaOda/robosys2022  
-$ cd ~/robosys2022`
+	
+$ git clone https://github.com/TakumaOda/robosys2022  
+$ cd ~/robosys2022
+	
 ## 使い方
 ### 連続した数字を足す場合
 `$ seq 5 | ./plus`  
