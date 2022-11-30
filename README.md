@@ -1,6 +1,6 @@
-# plusコマンド
+# robosys2022
 ![test](https://github.com/takumaoda/robosys2022/actions/workflows/test.yml/badge.svg)  
-標準入力された数値の和を表示する。
+標準入力された数値の和と積を出力するコマンドを作成した。
 
 ## 必要なソフトウェア
 * python
@@ -12,20 +12,22 @@ $ git clone https://github.com/TakumaOda/robosys2022
 $ cd ~/robosys2022
 ```
 ## 使い方
-### 連続した数字を足す場合
+### 連続した数字を足す(掛ける)場合
 ```
 $ seq 5 | ./plus
+($ seq 5 | ./mult)
 ```
-seqは連続番号を出力する。上記の場合1~5までの値を出力し、パイプを使って./plusに入力している。以下にseqの機能を示す。  
+seqは連続番号を出力する。上記の場合1~5までの値を出力し、パイプを使って./plus(./mult)に入力している。以下にseqの機能を示す。  
 * `seq A`: 1~Aまでの連続番号を出力
 * `seq A B`: A~Bまでの連続番号を出力
 * `seq A B C`: AからBずつ増えるCまでの数字を出力
 
-### ファイルから入力した数字を足す場合
-
-`$ ./plus < nums`もしくは`cat nums | ./plus`
-
-numsというファイルを./plusに入力している。numsファイルに入っている数字の総和を出力する。numsファイルは数字ごとに改行して記入すること。
+### ファイルに入力した数字を足す(掛ける)場合
+```
+$ cat nums | ./plus
+($ cat nums | ./mult)
+```
+numsというファイルを./plus(./mult)に入力している。numsファイルに入っている数字の総和を出力する。numsファイルは数字ごとに改行して記入すること。
 
 ## テスト環境
 * OS : Windows
