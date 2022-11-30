@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2022 Takuma Oda <s21c1027hp@s.chibakoudai.jp>
+
+import sys
+
+ans = 1
+buf = 0
+for line in sys.stdin:
+    try:
+        buf = ans * int(line)
+    except:
+        buf = ans * float(line)
+    ans = buf
+
+print(ans)
