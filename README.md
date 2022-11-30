@@ -33,6 +33,5 @@ numsというファイルを./plus(./mult)に入力している。numsファイ�
 
 
 # ライセンス
-* このリポジトリは,ロボットシステム学で作った練習用リポジトリであり,[講義資料](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)を参考にしています.
 * このソフトウェアパッケージは,3条項BSDライセンスの下,再頒布および使用が許可されます．
 * © 2022 Takuma Oda
