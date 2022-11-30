@@ -32,6 +32,7 @@ numsというファイルを./plus(./mult)に入力している。numsファイ�
 ## テスト環境
 * OS : Windows
 * Ubuntu : 18.04
+  * python : 3.7~3.10
 
 
 # ライセンス
