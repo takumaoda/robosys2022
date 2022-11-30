@@ -2,9 +2,6 @@
 ![test](https://github.com/takumaoda/robosys2022/actions/workflows/test.yml/badge.svg)  
 標準入力された数値の和と積を出力するコマンドを作成した。
 
-## 必要なソフトウェア
-* python
-  * テスト済み: 3.7~3.10
 ## インストール
 リポジトリをクローン、ディレクトリを移動。  
 ```
