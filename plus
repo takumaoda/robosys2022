@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-# SPDX-FileCopyrightText: 2022 Takuma Oda <s21c1027hp@s.chibakoudai.jp>
+# SPDX-FileCopyrightText: 2022 Takuma Oda
+# SPDX-License-Identifier: BSD-3-Clause
+
 import sys
 
 ans = 0
