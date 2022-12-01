@@ -1,6 +1,6 @@
 # robosys2022
 ![test](https://github.com/takumaoda/robosys2022/actions/workflows/test.yml/badge.svg)  
-標準入力された数値の和と積を出力するコマンドを作成した。
+標準入力された数値の和と積を出力するコマンド(plus,mult)を作成した。
 
 ## インストール
 リポジトリをクローン、ディレクトリを移動。  
